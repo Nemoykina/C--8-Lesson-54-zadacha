@@ -1,0 +1,15 @@
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.csproj.AssemblyReference.cache
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.AssemblyInfoInputs.cache
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.AssemblyInfo.cs
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.csproj.CoreCompileInputs.cache
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\bin\Debug\net6.0\54 задача.exe
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\bin\Debug\net6.0\54 задача.deps.json
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\bin\Debug\net6.0\54 задача.runtimeconfig.json
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\bin\Debug\net6.0\54 задача.dll
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\bin\Debug\net6.0\54 задача.pdb
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.dll
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\refint\54 задача.dll
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.pdb
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\54 задача.genruntimeconfig.cache
+D:\Users\Ma3rs\Desktop\test folder\c# 8 семинар\54 задача\obj\Debug\net6.0\ref\54 задача.dll
