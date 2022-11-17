@@ -10,66 +10,54 @@
 //8 4 4 2
 
 
-void OrderArrayLines(int[,] array)
+
+void FillArrayRandom(int[,] array)
 {
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-      for (int k = 0; k < array.GetLength(1) - 1; k++)
-      {
-        if (array[i, k] < array[i, k + 1])
+        for (int j = 0; j < array.GetLength(1); j++)
         {
-          int temp = array[i, k + 1];
-          array[i, k + 1] = array[i, k];
-          array[i, k] = temp;
+            array[i, j] = new Random().Next(1, 10);
         }
-      }
     }
-  }
 }
 
-int InputNumbers(string input)
+void SortToLower(int[,] array)
 {
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
-
-void CreateArray(int[,] array)
-{
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-        Console.Write($"{array[i, j]}\t"); 
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            for (int k = 0; k < array.GetLength(1) - 1; k++)
+            {
+                if (array[i, k] < array[i, k + 1])
+                {
+                    int temp = array[i, k + 1];
+                    array[i, k + 1] = array[i, k];
+                    array[i, k] = temp;
+                }
+            }
+        }
     }
-  }
 }
 
-void WriteArray(int[,] array)
+void PrintArray(int[,] array)
 {
-  for (int i = 0; i < array.GetLength(0); i++)
-  {
-    for (int j = 0; j < array.GetLength(1); j++)
+    for (int i = 0; i < array.GetLength(0); i++)
     {
-      Console.Write(array[i, j] + " ");
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write($"{array[i, j]} ");
+        }
+        Console.WriteLine();
     }
-    Console.WriteLine();
-  }
 }
+
 
 Console.Clear();
-Console.WriteLine($"Задача 54: Задайте двумерный массив. Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.");
-Console.WriteLine($"\nВведите размер массива m x n и диапазон случайных значений:");
-int m = InputNumbers("Введите m: ");
-int n = InputNumbers("Введите n: ");
-int range = InputNumbers("Введите диапазон: от 1 до ");
-
-int[,] array = new int[m, n];
-CreateArray(array);
-WriteArray(array);
-
-Console.WriteLine($"\nОтсортированный массив: ");
-OrderArrayLines(array);
-WriteArray(array);
+int[,] userArray = new int[3, 4];
+FillArrayRandom(userArray);
+PrintArray(userArray);
+SortToLower(userArray);
+Console.WriteLine();
+PrintArray(userArray);
